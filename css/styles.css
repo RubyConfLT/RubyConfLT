@@ -1,0 +1,130 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/******************************************************************************/
+
+@font-face {
+    font-family: Lighthouse;
+    src: url('../fonts/Lighthouse_PersonalUse_fontsbucket.ttf');
+}
+
+body {
+    background: #610b0c;
+    text-align: center;
+    color: #ffffff;
+}
+
+.show-off {
+    background: #610b0c url(../images/background.png) no-repeat;
+    background-size: 100%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.png', sizingMethod='scale');
+}
+
+.top-text-block {
+    font-family: 'Lato', sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lato", Arial, "Lucida Grande", sans-serif;*/
+    font-weight: 300;
+    padding: 325px 0 100px;
+    font-size: 55px;
+}
+
+.middle-text-block {
+    padding: 100px 0 20%;
+    font-family: Lighthouse;
+    font-size: 160px;
+}
+
+.details-block {
+    font-family: 'Lato', sans-serif;
+    padding: 50px 0px;
+}
+
+.details-block .details {
+    text-align: left;
+    display: inline-block;
+    width: 950px;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+.details-block .info-title {
+    font-size: 55px;
+    margin-bottom: 80px;
+}
+
+.details-block .qr-code {
+    display: inline-block;
+}
+
+.details-block .details ul li {
+    list-style: none;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+a {
+    color: white;
+}
+
+@media only screen and (min-width: 1824px) {
+    .middle-text-block {
+        padding-bottom: 700px
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .details-block .details ul li {
+        list-style: none;
+        font-size: 25px;
+    }
+    .top-text-block {
+        padding-top: 100px;
+    }
+
+    .ruby-ring {
+        width: 45%;
+        height: auto;
+    }
+
+
+    .middle-text-block {
+        padding: 50px 0 50px;
+        font-family: Lighthouse;
+        font-size: 130px;
+        color: #ffffff;
+    }
+}
