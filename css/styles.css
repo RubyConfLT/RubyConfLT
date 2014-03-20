@@ -68,9 +68,19 @@ body {
     font-size: 12vh;
 }
 
+h3 {
+    padding: 6vh 0;
+    text-align: center;
+    font-family: Lighthouse, serif;
+    font-size: 10vh;
+}
+
 .details-block {
     font-family: 'Lato', sans-serif;
-    padding: 0 0 30px 0;
+    padding: 0 0 4vh 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .details-block .details {
@@ -101,6 +111,49 @@ body {
 a {
     color: white;
 }
+.programme li {
+    padding-bottom: 4vh;
+}
+.speak {
+    font-size: 1.2em;
+    line-height: 1.25em;
+}
+.speaker {
+    text-align: right;
+    font-style: italic;
+}
+.links:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.links a {
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin-left: 8px;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+.links a.twitter {
+    background: url('../images/twitter.png') no-repeat;
+}
+.links a.github {
+    background: url('../images/github.png') no-repeat;
+}
+.links a.gplus {
+    background: url('../images/gplus.png') no-repeat;
+}
+.links a.linkedin {
+    background: url('../images/linkedin.png') no-repeat;
+}
+/*.links a.web {
+    background: url('../images/web.png') no-repeat;
+}
+*/
 
 @media screen and (orientation: landscape) and (max-width: 640px) {
     .top-text-block {
