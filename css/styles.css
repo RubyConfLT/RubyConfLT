@@ -62,7 +62,7 @@ body {
 }
 
 .middle-text-block {
-    padding: 4vh 0 8vh 0;
+    padding: 4vh 10px 8vh 10px;
     font-family: Lighthouse, serif;
     font-size: 12vh;
 }
@@ -117,9 +117,13 @@ a {
 .programme li {
     padding-bottom: 4vh;
 }
-.speak {
+.speak, .break {
     font-size: 1.2em;
     line-height: 1.25em;
+}
+.time {
+    font-size: .8em;
+    display: block;
 }
 .speaker {
     text-align: right;
