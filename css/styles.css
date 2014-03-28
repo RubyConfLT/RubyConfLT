@@ -157,10 +157,17 @@ a {
 .links a.linkedin {
     background: url('../images/linkedin.png') no-repeat;
 }
-/*.links a.web {
-    background: url('../images/web.png') no-repeat;
+
+.sponsors li {
+    margin-bottom: 2em;
+    text-align: center;
 }
-*/
+.sponsors a {
+    display: block;
+}
+.sponsors img {
+    max-width: 80%;
+}
 
 @media screen and (orientation: landscape) and (max-width: 640px) {
     .top-text-block {
