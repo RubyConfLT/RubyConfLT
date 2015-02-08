@@ -152,8 +152,11 @@ footer .wrapper {
 }
 
 .talk .time {
+  display: inline-block;
+  width: 120px;
   font-size: 1.2rem;
   line-height: 1.25;
+  text-align: right;
 }
 
 @media only screen and (max-width: 959px) {
@@ -212,6 +215,10 @@ footer .wrapper {
     float: left;
     margin: 0 20px 0 0;
   }
+}
+
+.talk .thumbnail img {
+  border-radius: 9999px;
 }
 
 .talk .description {
