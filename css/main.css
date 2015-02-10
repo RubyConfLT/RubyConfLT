@@ -301,12 +301,42 @@ footer .wrapper {
 }
 
 .sponsors li {
-  padding: 20px;
+  padding: 0;
+}
+
+.sponsors .major {
+  padding-bottom: 30px;
+}
+
+.sponsors img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sponsors img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media only screen and (max-width: 959px) {
   .sponsors li {
     display: block;
+  }
+
+  .sponsors .major {
+    padding-bottom: 0px;
+  }
+
+  .sponsors .minor li {
+    padding: 10px;
   }
 }
 
