@@ -133,6 +133,45 @@ footer .wrapper {
   padding: 10px;
 }
 
+.speakers .wrapper {
+  padding-bottom: 0;
+}
+
+.speakers ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.speaker:nth-child(4n) {
+  clear: both;
+}
+
+@media only screen and (min-width: 959px) {
+  .speaker {
+    width: 30%;
+    float: left;
+    padding: 0 1.5%;
+  }
+}
+
+.speaker h3 {
+  margin-bottom: 0;
+}
+
+.speaker .thumbnail img {
+  border-radius: 9999px;
+}
+
+.speaker p {
+  font-size: 1.4rem;
+}
+
+.speaker a {
+  color: #eb4951;
+  font-size: 1.4rem;
+}
+
 .talk {
   display: block;
   margin: 40px 0;
