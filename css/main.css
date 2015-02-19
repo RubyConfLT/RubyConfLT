@@ -444,3 +444,11 @@ img {
   -o-animation: fadeIn 1s both 1s;
   animation: fadeIn 1s both 1s;
 }
+
+.cfp {
+  font-size: 1.4rem;
+}
+
+.cfp a {
+  color: #eb4951;
+}
