@@ -122,6 +122,14 @@ h3 {
   text-align: center;
 }
 
+.sponsors > .wrapper {
+  padding: 60px 0 30px 0;
+}
+
+.partners > .wrapper {
+  padding: 10px 0 60px 0;
+}
+
 @media only screen and (max-width: 640px) {
   .wrapper {
     width: 87.5%;
@@ -335,11 +343,11 @@ footer .wrapper {
   }
 }
 
-.sponsors {
+.sponsors, .partners {
   background: #eeeeee;
 }
 
-.sponsors li {
+.sponsors li, .partners li {
   padding: 0;
 }
 
@@ -347,7 +355,7 @@ footer .wrapper {
   padding-bottom: 30px;
 }
 
-.sponsors img {
+.sponsors img, .partners img {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   -webkit-transition: all 0.5s;
@@ -356,7 +364,7 @@ footer .wrapper {
   transition: all 0.5s;
 }
 
-.sponsors img:hover {
+.sponsors img:hover, .partners img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   -webkit-transition: all 0.5s;
@@ -379,7 +387,7 @@ footer .wrapper {
   }
 }
 
-.sponsors a {
+.sponsors a, .partners a {
   color: transparent;
 }
 
