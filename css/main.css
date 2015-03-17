@@ -151,7 +151,7 @@ footer .wrapper {
   clear: both;
 }
 
-.speaker:nth-child(4n) {
+.speaker:nth-child(3n+1) {
   clear: both;
 }
 
