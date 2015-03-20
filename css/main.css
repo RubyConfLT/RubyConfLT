@@ -191,6 +191,10 @@ footer .wrapper {
   clear: both;
 }
 
+.talk a {
+  color: #eb4951;
+}
+
 @media only screen and (max-width: 959px) {
   .talk {
     max-width: 420px;
