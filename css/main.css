@@ -303,7 +303,7 @@ footer .wrapper {
 .about {
   position: relative;
   background-color: #444444;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/background2016.jpg');
   background-size: cover;
   color: #ffffff;
 }
