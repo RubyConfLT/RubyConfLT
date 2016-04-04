@@ -504,3 +504,8 @@ img {
 .cfp a {
   color: #eb4951;
 }
+
+.sponsors img {
+  max-width: 100%;
+  height: auto;
+}
