@@ -367,6 +367,8 @@ footer .wrapper {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  max-width: 100%;
+  height: auto;
 }
 
 .sponsors img:hover, .partners img:hover {
@@ -505,7 +507,3 @@ img {
   color: #eb4951;
 }
 
-.sponsors img {
-  max-width: 100%;
-  height: auto;
-}
