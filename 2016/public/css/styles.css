@@ -1,0 +1,186 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/******************************************************************************/
+
+@font-face {
+    font-family: Lighthouse;
+    src: url('../fonts/Lighthouse_PersonalUse_fontsbucket.ttf');
+}
+
+body {
+    text-align: center;
+    color: #ffffff;
+    background: #610b0c url(../images/background.png) no-repeat fixed;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.png', sizingMethod='scale');
+}
+
+.top-text-block {
+    font-family: 'Lato', sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lato", Arial, "Lucida Grande", sans-serif;*/
+    font-weight: 300;
+    padding: 16vh 0 8vh;
+    font-size: 4vh;
+}
+#logo {
+    max-width: 80%;
+}
+
+.middle-text-block {
+    padding: 4vh 10px 8vh 10px;
+    font-family: Lighthouse, serif;
+    font-size: 12vh;
+}
+
+h3 {
+    padding: 6vh 0;
+    text-align: center;
+    font-family: Lighthouse, serif;
+    font-size: 10vh;
+}
+
+.details-block {
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 4vh 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details-block .details {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1em;
+    vertical-align: top;
+    margin-bottom: 4vh;
+}
+
+.details-block .info-title {
+    font-size: 4vh;
+    padding: 4vh 0 8vh 0;
+}
+.info-short {
+    font-size: 4vh;
+    padding: 0 0 12vh 0;
+}
+
+.ruby-ring {
+    height: 30vh;
+}
+
+.details-block .details ul li {
+    list-style: none;
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+a {
+    color: white;
+}
+.programme li {
+    padding-bottom: 4vh;
+}
+.speak, .break {
+    font-size: 1.2em;
+    line-height: 1.25em;
+}
+.time {
+    font-size: .8em;
+    display: block;
+}
+.speaker {
+    text-align: right;
+    font-style: italic;
+}
+.links:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.links a {
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin-left: 8px;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+.links a.twitter {
+    background: url('../images/twitter.png') no-repeat;
+}
+.links a.github {
+    background: url('../images/github.png') no-repeat;
+}
+.links a.gplus {
+    background: url('../images/gplus.png') no-repeat;
+}
+.links a.linkedin {
+    background: url('../images/linkedin.png') no-repeat;
+}
+
+.sponsors li {
+    margin-bottom: 2em;
+    text-align: center;
+}
+.sponsors a {
+    display: block;
+}
+.sponsors img {
+    max-width: 80%;
+}
+
+@media screen and (orientation: landscape) and (max-width: 640px) {
+    .top-text-block {
+        font-size: 8vh;
+    }
+    .middle-text-block {
+        font-size: 24vh;
+    }
+    .details-block .info-title {
+        font-size: 8vh;
+    }
+    .details-block .details ul li {
+        font-size: 6vh;
+        line-height: 8vh;
+    }
+}
